@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+    environment:
+      # Optional - override the config file name in the .env ifle to use a different configuration
+      CONFIG_INI: ${CONFIG_INI}
+    stdin_open: true
+    tty: true

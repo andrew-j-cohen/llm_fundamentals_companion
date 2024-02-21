@@ -15,7 +15,7 @@ class ChatPersonaConfig:
         self._config = ConfigParser()
         # Ensure that case is preserved for parameters in the ini file
         self._config.optionxform = str
-        self._config.read("chat_config.ini")
+        self._config.read(os.getenv("CONFIG_INI", "chat_config.ini"))
         # Ensure the API key environment variable is set for ChatOpenAPI!
         os.environ["OPENAI_API_KEY"] = self._config["LLM"]["OpenAPIKey"]
 

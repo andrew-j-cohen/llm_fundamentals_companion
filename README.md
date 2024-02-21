@@ -12,7 +12,7 @@ This allows for easy creation, modification and testing of different chat person
 Modify the chat_config.ini to:
 1. Set your [OpenAI API Key](https://platform.openai.com/api-keys).
 2. Review the 3 sample chat personas in the "CustomChatPersonas" section. Modify these settings between runs to test responses with different LLM and prompt settings. Add your own as well! :) 
-4. Execute main.py
+4. Execute main.py OR follow instructions for [running in Docker](README.Docker.md)
 
 ## Notes
 1. The custom personas do not interact with Neo4j (currently)
