@@ -21,3 +21,5 @@ Modify the chat_config.ini to:
 
 ## Enhancements
 Are most welcome! :)
+
+This is a WIP
