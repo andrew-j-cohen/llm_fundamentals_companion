@@ -1,12 +1,10 @@
 # Chat Personas using LLMs and Neo4j
 
-A simple harness for interacting with OpenAI LLMs and Neo4j via LangChain.
+A CLI harness for interacting with OpenAI LLMs and Neo4j via LangChain.
 
 This is a companion for the sample code in the free [Neo4j && LLM Fundamentals course](https://graphacademy.neo4j.com/courses/llm-fundamentals/), using a simple INI file for configuration.
 
-The examples here build on the code samples in this course to provide a configuration based OOP implementation with customizable "Persona" classes.
-
-This allows for easy creation, modification and testing of different chat personas via configuration (i.e., INI file) without having to change Python code for every behavioral LLM change (i.e, temperature, prompt template, etc.)
+The harness builds on the code samples in this course to provide a simple configuration based implementation with customizable "Persona" classes via an INI file.
 
 ## Executing
 Modify the chat_config.ini to:
@@ -21,5 +19,3 @@ Modify the chat_config.ini to:
 
 ## Enhancements
 Are most welcome! :)
-
-This is a WIP
