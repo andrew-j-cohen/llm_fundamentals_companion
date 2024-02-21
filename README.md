@@ -2,7 +2,7 @@
 
 A simple harness for interacting with OpenAI LLMs and Neo4j via LangChain.
 
-This is a companion for the sample code in the free [Neo4j && LLM Fundamentals course](https://graphacademy.neo4j.com/courses/llm-fundamentals/).
+This is a companion for the sample code in the free [Neo4j && LLM Fundamentals course](https://graphacademy.neo4j.com/courses/llm-fundamentals/), using a simple INI file for configuration.
 
 The examples here build on the code samples in this course to provide a configuration based OOP implementation with customizable "Persona" classes.
 
